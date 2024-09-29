@@ -1,5 +1,3 @@
-// Basically humain banana ye hai ki ek array hoga jismein objects honge aur har object main hoga kuch data. Datas are - ek image and ek name
-
 var arr = [
   {
     name: "Petals of roses",
@@ -107,8 +105,6 @@ var arr = [
       "https://images.unsplash.com/photo-1592777336981-18334a076cef?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
 ];
-
-// Here 1st we created an array of objects containing sone images. To display all these images on the screen we have to create a function which will display all these images. 1st create a function named "showTheCards()" . Inside that function imply a forEach() loop an the array. Create a variable also inside that function nmaed "clutter" and leave it empty. Nowin the forEach() loop create a function and also pass a parameter "obj". Now inside that loop the local variable clutter will be store the HTML part of the image tag. In the image tag of the HTML part you have to put the object images in the src tag. Now select the "container" div form the HTML and save the clutter variable in that div. So the function will be iterate through all the elements of the array. When the function will run then the empty varibale will be created. And the function inside the loop will run. Corresponding images of the objects will save in the clutter and it will display.
 
 function showTheCards() {
   var clutter = "";
